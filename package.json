@@ -1,0 +1,27 @@
+{
+  "name": "qa-automation-assignment-vaniksarajyan",
+  "version": "1.0.0",
+  "description": "- Navigate to amazon.com (log in is not mandatory)\r - Search \"tablet\"\r - In results, find and print first 15 tablet names which cost less than 70$",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vineti-Internship/qa-automation-assignment-VanikSarajyan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vineti-Internship/qa-automation-assignment-VanikSarajyan/issues"
+  },
+  "homepage": "https://github.com/Vineti-Internship/qa-automation-assignment-VanikSarajyan#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "wdio-iedriver-service": "^0.1.0",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.11",
+    "wdio-teamcity-reporter": "^1.1.1",
+    "webdriverio": "^4.14.1"
+  }
+}
